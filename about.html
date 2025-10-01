@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="iCook - your local private chef. Responsive website for booking private chefs.">
+  <title>iCook | Your Local Private Chef</title>
+  <link href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body> 
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+         <img src="images/Logo11.png" alt="iCOOK Logo">
+      </div>
+      
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="hamburger">
+        <img src="images/MenuIIcon7.png" alt="Menu" />
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <!-- MAIN SCREEN VIDEO-->
+  <div class="video-container">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="images/AboutMainVideo.mp4" type="video/mp4">
+      <source src="images/HomeMainVideo1.mov" type="video/quicktime">
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-text">
+      <h2>HAVE A GOOD RESTaurant</h2>
+      <p><strong> with our chef at your home or office</strong></p>
+    </div>
+  </div>
+
+   <a href="contact.html#contact" class="book-btn">
+    <svg width="100" height="100" viewBox="0 0 100 100">
+      <defs>
+        <path id="circlePath" d="M50,50 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0"/>
+      </defs>
+      <text fill="white" font-size="13" font-weight="300">
+        <textPath href="#circlePath" startOffset="3%">
+          BOOK NOW BOOK NOW BOOK BOOK NOW BOOK
+        </textPath>
+      </text>
+    </svg>
+  </a>
+
+
+  <!--OUR STORY--> 
+  <section>
+    <div class="container center content form-frame" id="mg" style="max-width:900px">
+      
+      <div class="section-about">
+        <h2 class="name">Melania Greentree</h2>
+        <p class="chef-title">Chef - iCOOK</p>
+
+        <p>
+          Our chef has loved food for as long as she can remember. By the time she was 12, she was already 
+          spending most of her free time in the kitchen, cooking regularly for family and friends. She has a 
+          special gift—whatever you have in the fridge, she can turn it into something tasty! She just knows 
+          what ingredients go well together and which ones don’t.
+        </p>
+        <p>
+          At 19, she landed her very first job in a popular UK restaurant. She started out as an assistant, but 
+          in only a few months her hard work and talent got her promoted to chef.
+          She’s not only passionate about cooking—she’s also responsible, reliable, and has a great sense of 
+          humor that makes everyone around her feel at ease.
+        </p>
+        <p>
+          And here’s a fun fact: while working as a chef, she’s also finishing her last year of studies for a 
+          bachelor’s degree in International Relations. Cooking has always been her way of sharing love, joy, 
+          and creativity with everyone she meets—and that passion is what makes her food truly special.
+        </p>
+      </div>
+      <div class="chef-image-wrapper">
+        <img src="images/ChefMelashka.jpg" 
+             alt="Chef Melania Greentree" 
+             class="chef-image" />
+      </div>
+      <div class="email" style="max-width:700px">
+        <h6 class="email">
+          <strong>melania.greentree@gmail.com</strong>
+        </h6>     
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--FOOTER-->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="images/Logo11.png" alt="Logo">
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/TwitterLogo.png" alt="Twitter"></a>
+      </div>
+
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-search">
+      <form action="search.html" method="get">
+        <input type="text" name="q" placeholder="Search..." required>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 iCOOK. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

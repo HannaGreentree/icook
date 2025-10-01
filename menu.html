@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="iCook - your local private chef. Responsive website for booking private chefs."
+    />
+    <title>iCook | Your Local Private Chef</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Short+Stack&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <img src="images/Logo11.png" alt="iCOOK Logo" />
+        </div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger">
+          <img src="images/MenuIIcon7.png" alt="Menu" />
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN SCREEN VIDEO -->
+    <div class="video-container">
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="images/MenuMainVideo.mov" type="video/mp4" />
+        <source src="images/HomeMainVideo1.mov" type="video/quicktime" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="video-text">
+        <h2>HAVE A GOOD RESTaurant</h2>
+        <p><strong>with our chef at your home or office</strong></p>
+      </div>
+    </div>
+
+     <a href="contact.html#contact" class="book-btn">
+      <svg width="100" height="100" viewBox="0 0 100 100">
+        <defs>
+          <path
+            id="circlePath"
+            d="M50,50 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0"
+          />
+        </defs>
+        <text fill="white" font-size="13" font-weight="300">
+          <textPath href="#circlePath" startOffset="3%">
+            BOOK NOW BOOK NOW BOOK BOOK NOW BOOK
+          </textPath>
+        </text>
+      </svg>
+    </a>
+
+    <!-- MENU SECTION -->
+
+    <div class="menu-header">
+      <h4 class="chef">Chef menu for any occasions</h4>
+    </div>
+
+    <div class="ocasions">
+      <img src="images/BreakfastPlate.png" alt="Breakfast" />
+      <img src="images/LunchPlate.png" alt="Lunch" />
+      <img src="images/DinnerPlate.png" alt="Dinner" />
+      <img src="images/PartyPlate.png" alt="Party" />
+      <img src="images/DogFoodPlate.png" alt="Dog food" />
+      <img src="images/RomanticPlate.png" alt="Romantic" />
+    </div>
+
+    <div class="text-container">
+      <h3 class="content">For you from our chef</h3>
+      <p>
+        Here are some meal ideas and how long it could
+        take for us to cook. No worries if you can't find what you like, we are
+        always happy to offer you something else. It depends on your taste
+        preferences. We can offer a variety of dishes from different cuisines,
+        including <strong>vegetarian and gluten-free options</strong>. Whether you're craving a
+        hearty meal or a light snack, our menu has something for everyone.
+        Browse through our selection and find your next favorite dish!
+      </p>
+    </div>
+
+    <div class="block-mob">
+      <p class="mobile-text">
+        Here are some meal ideas and how long it could
+        take for us to cook. No worries if you can't find what you like, we are
+        always happy to offer you something else. It depends on your taste
+        preferences. We can offer a variety of dishes from different cuisines,
+        including <strong>vegetarian and gluten-free options</strong>. Whether you're craving a
+        hearty meal or a light snack, our menu has something for everyone.
+        Browse through our selection and find your next favorite dish!
+      </p>
+    </div>
+
+  <!-- MENU RECIPES CARDS --> 
+
+    <section class="menu-section">
+      <div class="menu-container">
+        <!-- RECIPE CARD 1 -->
+        <div class="recipe-card">
+          <img src="images/PotatoMushroom.png" alt="Potato Mushroom" />
+          <div class="recipe-desc">
+            <h4>Potato Mushrooms</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Yukon gold potatoes, olive oil, kosher salt,
+              black pepper, mushrooms, garlic, sour cream, chives, eggplant,
+              onion, bell pepper.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 2 -->
+        <div class="recipe-card">
+          <img src="images/PumpkinSoup.png" alt="Pumpkin Soup" />
+          <div class="recipe-desc">
+            <h4>Pumpkin Soup</h4>
+            <h6>Cooking time - 1 hour</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Pumpkin, olive oil, yellow onion, garlic, ground
+              ginger, cumin, cinnamon, nutmeg, vegetable broth, coconut
+              milk, salt, pepper.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 3 -->
+        <div class="recipe-card">
+          <img src="images/LentilSalad.png" alt="Lentil Salad" />
+          <div class="recipe-desc">
+            <h4>Lentil Salad</h4>
+            <h6>Cooking time - 1.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Olive oil, onion, carrots, garlic, ground cumin,
+              curry powder, dried thyme.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 4 -->
+        <div class="recipe-card">
+          <img src="images/MisoRamenSoup.png" alt="Miso Ramen Soup" />
+          <div class="recipe-desc">
+            <h4>Miso Ramen Soup</h4>
+            <h6>Cooking time - 2.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Sesame oil, garlic, ginger, miso paste, soy
+              sauce, vegetable broth, dried shiitake mushrooms, ramen
+              noodles, green onions, soft boiled eggs, tofu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <section class="menu-section">
+      <div class="menu-container">
+        <!-- RECIPE CARD 1 -->
+        <div class="recipe-card">
+          <img src="images/NapoleonCake.jpg" alt="Napoleon Cake" />
+          <div class="recipe-desc">
+            <h4>Napoleon Cake</h4>
+            <h6>Cooking time - 8 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Puff pastry (often made from flour, butter, 
+              water, and sometimes vinegar or vodka), and for the 
+              custard, milk, egg yolks, sugar, cornstarch, butter, and 
+              vanilla extract.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 2 -->
+        <div class="recipe-card">
+          <img src="images/HoneyCake2.jpg" alt="Honey Cake" />
+          <div class="recipe-desc">
+            <h4>Honey Cake</h4>
+            <h6>Cooking time - 6 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Flour, honey, sugar, eggs, butter, baking soda,
+              sour cream, and a variety of spices such as cinnamon, cloves,
+              and nutmeg.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 3 -->
+        <div class="recipe-card">
+          <img src="images/CheeseCake.jpg" alt="Cheesecake" />
+          <div class="recipe-desc">
+            <h4>Cheesecake</h4>
+            <h6>Cooking time - 3 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Cream cheese, sugar, eggs, sour cream, vanilla 
+              extract, and a crust made from crushed graham crackers 
+              or digestive biscuits mixed with butter.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 4 -->
+        <div class="recipe-card">
+          <img src="images/AppleCake.jpg" alt="Apple Cake" />
+          <div class="recipe-desc">
+            <h4>Apple Cake</h4>
+            <h6>Cooking time - 2.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Flour, sugar, eggs, butter, apples, baking 
+              powder, cinnamon, and sometimes nuts or raisins.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <div class="menu-container">
+        <!-- RECIPE CARD 1 -->
+        <div class="recipe-card">
+          <img src="images/MegiterranianChicken.jpg" alt="Mediterranean Chicken" />
+          <div class="recipe-desc">
+            <h4>Mediterranean Chicken</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Chicken breasts or thighs, olive oil, garlic, lemon juice,
+              dried oregano, dried thyme, salt, pepper, cherry tomatoes,
+              Kalamata olives, red onion, cucumber, feta cheese, fresh parsley.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 2 -->
+        <div class="recipe-card">
+          <img src="images/RoastSalmonWithGingerSoy.jpg" alt="Roast Salmon With Ginger Soy" />
+          <div class="recipe-desc">
+            <h4>Roast Salmon</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Salmon fillets, soy sauce, fresh ginger, garlic, honey,
+              sesame oil, rice vinegar, green onions, sesame seeds.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 3 -->
+        <div class="recipe-card">
+          <img src="images/BbqSteak.jpg" alt="BBQ Steak" />
+          <div class="recipe-desc">
+            <h4>BBQ Steak</h4>
+            <h6>Cooking time - 1.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Steak (ribeye, sirloin, or your preferred cut), olive oil, garlic,
+              salt, pepper, smoked paprika, chili powder, brown sugar,
+              onion powder, cumin, Worcestershire sauce, apple cider vinegar.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 4 -->
+        <div class="recipe-card">
+          <img src="images/BraisedBeefPotatoes.jpg" alt="Braised Beef Potatoes" />
+          <div class="recipe-desc">
+            <h4>Braised Beef Potatoes</h4>
+            <h6>Cooking time - 2.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Beef chuck roast, olive oil, salt, pepper, onion, garlic,
+              beef broth, red wine (optional), tomato paste, carrots, potatoes,
+              thyme, rosemary, bay leaves.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <div class="menu-container">
+        <!-- RECIPE CARD 1 -->
+        <div class="recipe-card">
+          <img src="images/EggplantBaked.jpg" alt="Eggplant Baked" />
+          <div class="recipe-desc">
+            <h4>Eggplant Baked</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Eggplant, olive oil, salt, pepper, garlic, onion,
+              crushed tomatoes, fresh basil, mozzarella cheese, Parmesan cheese,
+              breadcrumbs, dried oregano.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 2 -->
+        <div class="recipe-card">
+          <img src="images/UkrainianSaladOlivier.jpg" alt="Ukrainian Salad Olivier" />
+          <div class="recipe-desc">
+            <h4>Ukrainian Salad Olivier</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Boiled potatoes, carrots, peas, pickles, eggs, cooked chicken or bologna,
+              mayonnaise, mustard, salt, pepper.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 3 -->
+        <div class="recipe-card">
+          <img src="images/VinegretSalad.jpg" alt="Vinegret Salad" />
+          <div class="recipe-desc">
+            <h4>Vinegret Salad</h4>
+            <h6>Cooking time - 3 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Beetroot, potatoes, carrots, pickles, sauerkraut, green peas,
+              onion, sunflower oil, salt, pepper.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 4 -->
+        <div class="recipe-card">
+          <img src="images/Okroshka.jpg" alt="Okroshka" />
+          <div class="recipe-desc">
+            <h4>Okroshka Soup</h4>
+            <h6>Cooking time - 3 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Boiled potatoes, carrots, cucumbers, radishes, green onions,
+              dill, boiled eggs, cooked meat (ham, sausage, or chicken), kefir or
+              sour cream, water, mustard, salt, pepper.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <div class="menu-container">
+        <!-- RECIPE CARD 1 -->
+        <div class="recipe-card">
+          <img src="images/CheesyCakes.jpg" alt="Cheesy Cakes" />
+          <div class="recipe-desc">
+            <h4>Cheesy Cakes</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Cottage cheese or ricotta, eggs, sugar, flour, baking powder,
+              vanilla extract, lemon zest, salt, butter or oil for frying.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 2 -->
+        <div class="recipe-card">
+          <img src="images/ZucchiniPancakes.jpg" alt="Zucchini Pancakes" />
+          <div class="recipe-desc">
+            <h4>Zucchini Pancakes</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Zucchini, eggs, flour, grated Parmesan cheese, garlic,
+              fresh herbs (like dill or parsley), salt, pepper, olive oil for frying.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 3 -->
+        <div class="recipe-card">
+          <img src="images/UkrainianCrepes.jpg" alt="Ukrainian Crepes" />
+          <div class="recipe-desc">
+            <h4>Ukrainian Crepes</h4>
+            <h6>Cooking time - 2.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Flour, milk, eggs, water, salt, sugar, butter for cooking,
+              and various fillings like cottage cheese, mushrooms, meat, or jam.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 4 -->
+        <div class="recipe-card">
+          <img src="images/UkrainianDumplings.jpg" alt="Ukrainian Dumplings" />
+          <div class="recipe-desc">
+            <h4>Ukrainian Dumplings</h4>
+            <h6>Cooking time - 4 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Flour, eggs, water, salt for the dough; ground meat (pork, beef, or a mix),
+              onion, garlic, salt, pepper for the filling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section">
+      <div class="menu-container">
+        <!-- RECIPE CARD 1 -->
+        <div class="recipe-card">
+          <img src="images/DogFoodChickenMeatloaf.png" alt="Dog Food Chicken Meatloaf" />
+          <div class="recipe-desc">
+            <h4>Chicken Meatloaf for Dogs</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Ground chicken, cooked quinoa or brown rice,
+              grated carrots, peas, spinach, eggs, olive oil.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 2 -->
+        <div class="recipe-card">
+          <img src="images/DogFoodEnergiser.jpg" alt="Dog Food Energiser" />
+          <div class="recipe-desc">
+            <h4>Energiser for dogs</h4>
+            <h6>Cooking time - 2 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Lean beef chunks, potatoes, carrots, green beans,
+              peas, beef broth, olive oil.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 3 -->
+        <div class="recipe-card">
+          <img src="images/DogFoodGroundBite.jpg" alt="Dog Food Ground Bite" />
+          <div class="recipe-desc">
+            <h4>Ground Bite for dogs</h4>
+            <h6>Cooking time - 1.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Salmon fillet, brown rice, spinach, peas, carrots, olive oil.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECIPE CARD 4 -->
+        <div class="recipe-card">
+          <img src="images/DogFoodLuckyDog.jpg" alt="Dog Food Lucky Dog" />
+          <div class="recipe-desc">
+            <h4>Lucky dog for dogs</h4>
+            <h6>Cooking time - 2.5 hours</h6>
+            <p class="space"></p>
+            <p>
+              Ingredients: Ground turkey, sweet potatoes, green beans,
+              zucchini, olive oil.
+            </p>
+          </div>
+        </div>
+
+
+<div class="text-container">
+  <h3 class="desktop-text">More details</h3>
+  <p class="desktop-text">
+    Any recipe is adjustable. Let us know what you do not like. During baking or roasting time, 
+    that usually takes between 30 and 60 min, we can offer to make an additional meal of your choice.     
+  </p>
+</div>        
+
+<div class="block-mob">
+  <h3 class="mobile-text">More details</h3>
+  <p class="mobile-text">
+    Any recipe is adjustable. Let us know what you do not like. During baking or roasting time, 
+    that usually takes between 30 and 60 min, we can offer to make an additional meal of your choice.    
+  </p>
+</div>
+
+      </div>
+    </section>
+
+     
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="images/Logo11.png" alt="Logo">
+      </div>
+      <div class="footer-social">
+        <a href="#"><img src="images/Facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="images/Instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/TwitterLogo.png" alt="Twitter"></a>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-search">
+      <form action="search.html" method="get">
+        <input type="text" name="q" placeholder="Search..." required>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 iCOOK. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
