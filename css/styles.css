@@ -936,7 +936,8 @@ input[type=submit]:hover {
   }
 
   .form-frame {
-    width: 410px;
+    width: 270px;
+   font-size: 1.1;
   }
 }
 
@@ -948,7 +949,7 @@ input[type=submit]:hover {
 /* --- MOBILE VERSION --- */
 @media (max-width: 600px) {
   .chef-image {
-    max-width: 300px;
+    max-width: 280px;
   }
 }
 
