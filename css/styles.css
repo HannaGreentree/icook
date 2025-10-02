@@ -707,7 +707,7 @@ input[type=submit]:hover {
   }
 
   .brand img {
-    height: 45px;
+    height: 50px;
     margin-left: 40px;
   }
 
@@ -718,10 +718,10 @@ input[type=submit]:hover {
   }
 
   .hamburger img {
-    height: 48px;
-    margin-left: 115px;
-    margin-top: 5px;
-    width: 48px;
+    height: 52px;
+    margin-left: 100px;
+    margin-top: 12px;
+    width: 52px;
   }
 
   .menu-toggle:checked ~ .nav-links {
@@ -755,7 +755,7 @@ input[type=submit]:hover {
   /* --- MAIN SCREEN VIDEO --- */
   .book-btn {
     bottom: 120px;
-    left: 240px;
+    left: 230px;
   }
 
   .video-text h2 {
@@ -814,7 +814,7 @@ input[type=submit]:hover {
 
   .book-text .invite-column {
     flex: 1 1 50% !important;
-    font-size: 1rem !important;
+    font-size: 1.1rem !important;
     margin: 0 !important;
     min-width: 45%;
     padding: 8px !important;
@@ -860,7 +860,7 @@ input[type=submit]:hover {
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     color: rgb(122, 120, 120);
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     margin: 0 40px 16px 40px;
     padding: 16px;
@@ -884,7 +884,7 @@ input[type=submit]:hover {
     border-radius: 25px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     color: rgb(122, 120, 120);
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 40px auto 50px auto;
     max-width: 85%;
     padding: 3vw;
@@ -900,7 +900,7 @@ input[type=submit]:hover {
   }
 
   .text-container-policy ul {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 0;
     padding: 0;
     list-style: none;
