@@ -598,14 +598,14 @@ input[type=submit]:hover {
 
 
 /* --- FORM FRAME --- */
-.form-frame {
+.cook-frame {
   background: rgba(255, 255, 255, 0.9);
   border: 2px solid rgb(244, 235, 67);
   border-radius: 12px;
   padding: 20px;
 }
 
-.form-frame p {
+.cook-frame p {
   margin-bottom: 30px;
   max-width: 800px;
 }
@@ -936,8 +936,9 @@ input[type=submit]:hover {
   }
 
   .form-frame {
-    width: 270px;
-   font-size: 1.1;
+    font-size: 1.1rem;
+    width: 290px;
+  
   }
 }
 
@@ -951,6 +952,10 @@ input[type=submit]:hover {
   .chef-image {
     max-width: 280px;
   }
+ .cook-frame {
+    width: 400px;
+  }
+ 
 }
 
 
