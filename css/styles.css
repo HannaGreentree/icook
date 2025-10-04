@@ -713,7 +713,7 @@ input[type=submit]:hover {
 
   .brand img {
     height: 50px;
-    margin-left: 40px;
+    margin-left: 30px;
   }
 
   .hamburger {
@@ -724,7 +724,7 @@ input[type=submit]:hover {
 
   .hamburger img {
     height: 52px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 12px;
     width: 52px;
   }
@@ -759,7 +759,7 @@ input[type=submit]:hover {
 
   /* --- MAIN SCREEN VIDEO --- */
   .book-btn {
-    bottom: 120px;
+    bottom: 130px;
     left: 220px;
   }
 
