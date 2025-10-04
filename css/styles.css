@@ -713,7 +713,7 @@ input[type=submit]:hover {
 
   .brand img {
     height: 50px;
-    margin-left: 10px;
+    margin-left: 40px;
   }
 
   .hamburger {
@@ -724,7 +724,7 @@ input[type=submit]:hover {
 
   .hamburger img {
     height: 52px;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-top: 12px;
     width: 52px;
   }
