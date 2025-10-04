@@ -536,7 +536,7 @@ input[type=submit] {
   color: #564f4f;
   cursor: pointer;
   display: inline-block;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: bold;
   height: 80px;
   line-height: 50px;
@@ -713,7 +713,7 @@ input[type=submit]:hover {
 
   .brand img {
     height: 50px;
-    margin-left: 40px;
+    margin-left: 10px;
   }
 
   .hamburger {
@@ -942,8 +942,7 @@ input[type=submit]:hover {
 
   .form-frame {
     font-size: 1.1rem;
-    width: 290px;
-  
+    width: 350px;
   }
 }
 
@@ -958,7 +957,7 @@ input[type=submit]:hover {
     max-width: 280px;
   }
  .cook-frame {
-    width: 400px;
+    width: 370px;
   }
  
 }
