@@ -776,6 +776,18 @@ input[type=submit]:hover {
     font-size: 1.4rem;
   }
 
+  .background-video {
+  height: auto;
+  object-fit: cover;
+  width: 100%; 
+}
+
+  .video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+ 
   /* --- WHERE WE SERVE --- */
   .service-location {
     column-gap: 5px;
