@@ -1,4 +1,4 @@
-/* --- BODY --- */
+
 * {
  box-sizing: border-box;
  margin: 0;
@@ -17,7 +17,6 @@ html, body {
 }
 
 /* --- NAVIGATION MENU --- */
-
 .menu-toggle {
   display: none;
 }
@@ -123,7 +122,8 @@ header .navbar .nav-links li a {
   transform: translate(-50%, -50%);
 }
 
-/* --- BOOK BUTTON ON VIDEO --- */
+
+
 .book-btn {
   align-items: center;
   background-color: rgb(255, 255, 255);
@@ -236,7 +236,6 @@ header .navbar .nav-links li a {
   margin: 0.5em 0;
 }
 
-/* --- IMAGE ROW --- */
 .image-row {
   display: flex;
   flex-wrap: wrap;
@@ -344,7 +343,6 @@ header .navbar .nav-links li a {
   transform: scale(1.2);
 }
 
-/* --- MAP --- */
 
 .map iframe {
   display: block;
@@ -361,7 +359,6 @@ header .navbar .nav-links li a {
   text-align: center;
 }
 
-/* --- FOOTER --- */
 
 footer {
   color: #777;
@@ -425,7 +422,6 @@ footer {
 }
 
 /* --- FOOTER SEARCH BAR --- */
-
 .footer-search {
   margin-top: 10px;
   text-align: center;  
@@ -593,14 +589,12 @@ input[type=submit]:hover {
 
 /* --- ABOUT PAGE DESKTOP --- */
 
-
 .video-container video,
 .background-video {
   background-color: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
-
 
 /* --- FORM FRAME --- */
 .cook-frame {
