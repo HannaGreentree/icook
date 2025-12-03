@@ -66,13 +66,13 @@ To view or edit the project locally:
 Here are the wireframes I designed for my website:
 
 ### 🖥️ Desktop Wireframes
-![Wireframe of Home Page](images/wireframe-desktop-home.png)
-![Wireframe of Menu Page](images/wireframe-desktop-menu.png)
-![Wireframe of About Page](images/wireframe-desktop-about.png)
-![Wireframe of Contact Page](images/wireframe-desktop-contact.png)
+![Wireframe of Home Page](images/wireframe-desktop-home.jpg)
+![Wireframe of Menu Page](images/wireframe-desktop-menu.jpg)
+![Wireframe of About Page](images/wireframe-desktop-about.jpg)
+![Wireframe of Contact Page](images/wireframe-desktop-contact.jpg)
 
 ### 📱 Mobile Wireframes
-![Wireframe of All Mobile Pages](images/wireframe-mobile-allpages.png)
+![Wireframe of All Mobile Pages](images/wireframe-mobile-allpages.jpg)
 
 
 
