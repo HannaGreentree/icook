@@ -18,10 +18,7 @@ The goal is to provide a clean, user-friendly, responsive website accessible on 
 
 1. Clone the repository:
 
-   ```bash
-   ```
-
-git clone [https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
+   git clone [https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
 
 ```
 2. Open the project folder in VS Code.
