@@ -2,7 +2,8 @@
 
 ## Purpose
 
-The **iCook** website allows users to explore recipes, discover professional chefs, and book private cooking services. The goal is to provide a clean, user-friendly, responsive website accessible on all devices.
+The **iCook** website allows users to explore recipes, discover professional chefs, and book private cooking services. 
+The goal is to provide a clean, user-friendly, responsive website accessible on all devices.
 
 ## Value to Users
 
@@ -66,7 +67,8 @@ _User story: “As a user, I want to use the site on my phone.”_
 ---
 
 # 🔗 3.3 Attribution / References
-This project includes code, images, fonts, and ideas adapted from external sources. All external resources are acknowledged below.
+This project includes code, images, fonts, and ideas adapted from external sources. All external resources are
+acknowledged below.
 
 ## Code Inspiration & Tutorials
 - **General HTML/CSS/JS help:** ChatGPT (OpenAI)
@@ -92,7 +94,8 @@ This project includes code, images, fonts, and ideas adapted from external sourc
 
 # 🧩 Version Control (M iv)
 ### Overview
-Version control was managed using **VS Code** and later GitHub. GitHub was introduced at the end of the project; therefore, the commit history does not reflect the actual development timeline. After learning its importance, commits were recreated to represent each development stage.
+Version control was managed using **VS Code** and later GitHub. GitHub was introduced at the end of the project; therefore,
+the commit history does not reflect the actual development timeline. After learning its importance, commits were recreated to represent each development stage.
 
 ### Commit Timeline
 | Step | Commit Message | Description |
@@ -157,7 +160,8 @@ Only essential comments and attributions remain.
 ---
 
 # 📝 Project Rationale (M v)
-The **iCook** website was built to support a local private chef business, helping clients find services, menus, and contact options quickly.
+The **iCook** website was built to support a local private chef business, helping clients find services, menus,
+and contact options quickly.
 
 ### Target Audience
 - Families and individuals booking private meals.
