@@ -2,15 +2,38 @@
 
 ## Purpose
 
-The **iCook** website allows users to explore recipes, discover professional chefs, and book private cooking services. 
-The goal is to provide a clean, user-friendly, responsive website accessible on all devices.
+The **iCook** website allows users to explore recipes, discover professional chefs, and book private cooking services. The goal is to provide a clean, user-friendly, responsive website accessible on all devices.
 
 ## Value to Users
 
-* Browse delicious recipes instantly.
-* Discover skilled chefs and their specialties.
-* Access the site easily on mobile, tablet, or desktop.
-* Enjoy a visually appealing layout and seamless navigation.
+- Browse delicious recipes instantly.
+- Discover skilled chefs and their specialties.
+- Access the site easily on mobile, tablet, or desktop.
+- Enjoy a visually appealing layout and seamless navigation.
+
+---
+
+# Required Project Links
+Live Website
+https://hannagreentree.github.io/icook/
+GitHub Repository
+https://github.com/HannaGreentree/iCOOK.uk
+Issue Tracker
+https://github.com/HannaGreentree/iCOOK.uk/issues
+Wireframes Folder
+https://github.com/HannaGreentree/iCOOK.uk/tree/main/images
+Testing File (Testing.md)
+https://github.com/HannaGreentree/iCOOK.uk/blob/main/TESTING.md
+
+---
+
+# HTML & CSS Validation
+
+## HTML Validator
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fhannagreentree.github.io%2Ficook%2F
+
+## CSS Validator
+https://jigsaw.w3.org/css-validator/
 
 ---
 
@@ -18,7 +41,11 @@ The goal is to provide a clean, user-friendly, responsive website accessible on 
 
 1. Clone the repository:
 
-   git clone [https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
+   ```bash
+
+   ```
+
+git clone [https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
 
 ```
 2. Open the project folder in VS Code.
@@ -40,7 +67,7 @@ The goal is to provide a clean, user-friendly, responsive website accessible on 
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 ### Desktop Screenshots
 ![Home Page](images/user-desktop-home.png)
 _User story: “As a user, I want to explore recipes easily.”_
@@ -63,9 +90,8 @@ _User story: “As a user, I want to use the site on my phone.”_
 
 ---
 
-# 🔗 3.3 Attribution / References
-This project includes code, images, fonts, and ideas adapted from external sources. All external resources are
-acknowledged below.
+# 3.3 Attribution / References
+This project includes code, images, fonts, and ideas adapted from external sources. All external resources are acknowledged below.
 
 ## Code Inspiration & Tutorials
 - **General HTML/CSS/JS help:** ChatGPT (OpenAI)
@@ -89,10 +115,9 @@ acknowledged below.
 
 ---
 
-# 🧩 Version Control (M iv)
+# Version Control (M iv)
 ### Overview
-Version control was managed using **VS Code** and later GitHub. GitHub was introduced at the end of the project; therefore,
-the commit history does not reflect the actual development timeline. After learning its importance, commits were recreated to represent each development stage.
+Version control was managed using **VS Code** and later GitHub. GitHub was introduced at the end of the project; therefore, commit history does not reflect the actual development timeline. After learning its importance, commits were recreated to represent each development stage.
 
 ### Commit Timeline
 | Step | Commit Message | Description |
@@ -112,7 +137,7 @@ the commit history does not reflect the actual development timeline. After learn
 
 ---
 
-# ✔️ 5.1 Manual Testing
+# 5.1 Manual Testing
 Manual testing was completed on all devices and browsers.
 
 ### Functionality
@@ -121,7 +146,7 @@ Manual testing was completed on all devices and browsers.
 - External links open safely in a new tab.
 
 ### Usability
-- Text readable and well-spaced.
+- Text readable and well spaced.
 - Clear visual hierarchy.
 - Intuitive navigation.
 
@@ -136,13 +161,13 @@ Manual testing was completed on all devices and browsers.
 
 ---
 
-# 🧪 5.4 Code Clean-Up
-All unused CSS, JS, and HTML comments were removed before deployment.  
+# 5.4 Code Clean-Up
+All unused CSS, JS, and HTML comments were removed before deployment.
 Only essential comments and attributions remain.
 
 ---
 
-# 🔗 5.5 Internal Link Testing
+# 5.5 Internal Link Testing
 ### Internal Links Tested:
 - **Home** → index.html
 - **Menu** → #menu
@@ -156,9 +181,8 @@ Only essential comments and attributions remain.
 
 ---
 
-# 📝 Project Rationale (M v)
-The **iCook** website was built to support a local private chef business, helping clients find services, menus,
-and contact options quickly.
+# Project Rationale (M v)
+The **iCook** website was built to support a local private chef business, helping clients find services, menus, and contact options quickly.
 
 ### Target Audience
 - Families and individuals booking private meals.
@@ -172,32 +196,20 @@ and contact options quickly.
 
 ---
 
-# 🧩 M(vii) Development Note
+# M(vii) Development Note
 The project was completed before using GitHub. Commits were recreated to document the process.
 All features, testing, and design decisions are fully documented here.
 
 ---
 
-# 📢 Honest Statement
-This README covers all steps of planning, building, testing, and preparing the iCook website.  
+# Honest Statement
+This README covers all steps of planning, building, testing, and preparing the iCook website.
 All external sources are fully attributed, and the project meets required assessment criteria.
 
 ---
 
 # Attribution Statement
-All code is written by me unless stated otherwise.  
+All code is written by me unless stated otherwise.
 Where external ideas/snippets were used, they are clearly attributed in comments above the code sections.
 
-```
 
-
-
-
-
-
-
-
-
-
-
----
