@@ -17,6 +17,7 @@ html, body {
 }
 
 /* --- NAVIGATION MENU --- */
+
 .menu-toggle {
   display: none;
 }
@@ -62,6 +63,8 @@ padding: 0;
   transition: width 0.3s ease;
   width: 0;
 }
+
+/* Icon hover transition inspired by FontAwesome documentation */
 
 .nav-links li a:hover {
   background-color: rgb(247, 241, 133) !important;
@@ -392,6 +395,8 @@ footer {
   transition: transform 0.3s ease;
   width: 31px;
 }
+
+/* Icon hover transition inspired by FontAwesome documentation */
 
 .footer-social a img:hover {
   transform: scale(1.2);
@@ -1040,6 +1045,8 @@ input[type=submit]:hover {
   margin: 30px auto;
   max-width: 1300px;
 }
+
+/* Grid layout idea inspired by CSS-tricks and CodePen examples — adapted for custom styling */
 
 .recipe-card {
   display: flex;
