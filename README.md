@@ -204,7 +204,7 @@ All features, testing, and design decisions are fully documented here.
 
 # Honest Statement
 This README covers all steps of planning, building, testing, and preparing the iCook website.
-All external sources are fully attributed, and the project meets required assessment criteria.
+All external sources are fully attributed, and the project meets the required assessment criteria.
 
 ---
 
