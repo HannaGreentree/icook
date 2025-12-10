@@ -41,11 +41,7 @@ https://jigsaw.w3.org/css-validator/
 
 1. Clone the repository:
 
-   ```bash
-
-   ```
-
-git clone [https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
+[https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
 
 ```
 2. Open the project folder in VS Code.
