@@ -41,7 +41,11 @@ https://jigsaw.w3.org/css-validator/
 
 1. Clone the repository:
 
-[https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
+   ```bash
+
+   ```
+
+git clone [https://github.com/HannaGreentree/iCOOK.uk.git](https://github.com/HannaGreentree/iCOOK.uk.git)
 
 ```
 2. Open the project folder in VS Code.
@@ -200,7 +204,7 @@ All features, testing, and design decisions are fully documented here.
 
 # Honest Statement
 This README covers all steps of planning, building, testing, and preparing the iCook website.
-All external sources are fully attributed, and the project meets the required assessment criteria.
+All external sources are fully attributed, and the project meets required assessment criteria.
 
 ---
 
@@ -208,4 +212,4 @@ All external sources are fully attributed, and the project meets the required as
 All code is written by me unless stated otherwise.
 Where external ideas/snippets were used, they are clearly attributed in comments above the code sections.
 
-
+```
